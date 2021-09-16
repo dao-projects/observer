@@ -9,7 +9,8 @@
     "build:esm": "npx tsc",
     "build:cmj": "npx tsc --module CommonJS --outDir ./dist/cmj",
     "build": "npm run build:esm & npm run build:cmj",
-    "build:test": "npx tsc -w"
+    "build:test": "npx tsc -w",
+    "publish":"npm publish --access public"
   },
   "author": "wuxizhe",
   "license": "ISC",
